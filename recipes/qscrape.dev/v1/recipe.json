@@ -90,15 +90,15 @@
         "root": {
           "primary": {
             "type": "css",
-            "value": "#catalogGrid .nonexistent-class"
+            "value": "#catalogGrid .product-card"
           },
           "fallback": {
             "type": "css",
-            "value": ".also-does-not-exist"
+            "value": ".product-card"
           },
           "tertiary": {
             "type": "css",
-            "value": "div.also-fake"
+            "value": "div.product-card"
           },
           "discovered_at": "2026-06-10T16:37:29.759784Z",
           "last_verified_at": null,
