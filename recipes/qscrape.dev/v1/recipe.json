@@ -90,7 +90,7 @@
         "root": {
           "primary": {
             "type": "css",
-            "value": "#catalogGrid .product-card"
+            "value": "#catalogGrid .nonexistent-class"
           },
           "fallback": {
             "type": "css",
