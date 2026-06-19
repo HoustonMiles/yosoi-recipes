@@ -1,79 +1,78 @@
 {
   "url": "https://qscrape.dev/l1/eshop/catalog/?cat=Forge%20%26%20Smithing",
-    "domain": "qscrape.dev",
-    "snapshots": {
-      "name": {
-        "primary": {
-          "type": "css",
-          "value": "div.product-card-name > a"
-        },
-        "fallback": {
-          "type": "css",
-          "value": "div.product-card-name a"
-        },
-        "tertiary": {
-          "type": "css",
-          "value": "a"
-        },
-        "discovered_at": "2026-06-10T16:37:29.759784Z",
-        "last_verified_at": null,
-        "last_failed_at": null,
-        "failure_count": 0,
-        "source": "discovered",
-        "parent_root": null,
-        "root": {
-          "type": "css",
-          "value": "div#catalogGrid div.product-card"
-        },
-        "status": "active",
-        "status_reason": null
+  "domain": "qscrape.dev",
+  "snapshots": {
+    "name": {
+      "primary": {
+        "type": "css",
+        "value": "div.product-card-name > a"
       },
-      "price": {
-        "primary": {
-          "type": "css",
-          "value": "div.product-card-price > span.priceDisplay"
-        },
-        "fallback": {
-          "type": "css",
-          "value": "span.priceDisplay"
-        },
-        "tertiary": null,
-        "discovered_at": "2026-06-10T16:37:29.759784Z",
-        "last_verified_at": null,
-        "last_failed_at": null,
-        "failure_count": 0,
-        "source": "discovered",
-        "parent_root": null,
-        "root": {
-          "type": "css",
-          "value": "div.product-card"
-        },
-        "status": "active",
-        "status_reason": null
+      "fallback": {
+        "type": "css",
+        "value": "div.product-card-name a"
       },
+      "tertiary": {
+        "type": "css",
+        "value": "a"
+      },
+      "discovered_at": "2026-06-10T16:37:29.759784Z",
+      "last_verified_at": null,
+      "last_failed_at": null,
+      "failure_count": 0,
+      "source": "discovered",
+      "parent_root": null,
       "root": {
-        "primary": {
-          "type": "css",
-          "value": "#catalogGrid .product-card"
-        },
-        "fallback": {
-          "type": "css",
-          "value": ".product-card"
-        },
-        "tertiary": {
-          "type": "css",
-          "value": "div.product-card"
-        },
-        "discovered_at": "2026-06-10T16:37:29.759784Z",
-        "last_verified_at": null,
-        "last_failed_at": null,
-        "failure_count": 0,
-        "source": "discovered",
-        "parent_root": null,
-        "root": null,
-        "status": "active",
-        "status_reason": null
-      }
+        "type": "css",
+        "value": "div#catalogGrid div.product-card"
+      },
+      "status": "active",
+      "status_reason": null
+    },
+    "price": {
+      "primary": {
+        "type": "css",
+        "value": "div.product-card-price > span.priceDisplay"
+      },
+      "fallback": {
+        "type": "css",
+        "value": "span.priceDisplay"
+      },
+      "tertiary": null,
+      "discovered_at": "2026-06-10T16:37:29.759784Z",
+      "last_verified_at": null,
+      "last_failed_at": null,
+      "failure_count": 0,
+      "source": "discovered",
+      "parent_root": null,
+      "root": {
+        "type": "css",
+        "value": "div.product-card"
+      },
+      "status": "active",
+      "status_reason": null
+    },
+    "root": {
+      "primary": {
+        "type": "css",
+        "value": "#catalogGrid .product-card"
+      },
+      "fallback": {
+        "type": "css",
+        "value": ".product-card"
+      },
+      "tertiary": {
+        "type": "css",
+        "value": "div.product-card"
+      },
+      "discovered_at": "2026-06-10T16:37:29.759784Z",
+      "last_verified_at": null,
+      "last_failed_at": null,
+      "failure_count": 0,
+      "source": "discovered",
+      "parent_root": null,
+      "root": null,
+      "status": "active",
+      "status_reason": null
     }
   }
 }
